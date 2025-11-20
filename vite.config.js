@@ -7,8 +7,6 @@ export default defineConfig({
     react({
       babel: {
         plugins: [["babel-plugin-react-compiler"]],
-        // eslint-disable-next-line no-undef
-        base: process.env.VITE_BASE_PATH || "/dolley-s-laundry",
       },
     }),
   ],
