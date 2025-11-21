@@ -815,6 +815,11 @@
     height: auto;
   }
 
+  .commercial-section .cta-section h2 {
+    font-size: 50px;
+    /* height: 140px; */
+  }
+
   /* TOWEL */
   .towel-section {
     padding: 40px 16px;
