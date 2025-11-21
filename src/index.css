@@ -332,12 +332,12 @@
   gap: 30px;
 }
 .service-grid .first-card {
-  background-image: url(./residential.jpg);
+  background-image: url(/residential.jpg);
   background-size: cover;
   height: 450px;
 }
 .service-grid .second-card {
-  background-image: url(./commercial.png);
+  background-image: url(/commercial.png);
   background-size: cover;
   height: 450px;
 }
