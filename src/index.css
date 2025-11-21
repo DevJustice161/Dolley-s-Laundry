@@ -1714,7 +1714,7 @@
 }
 
 /* Extra small phones */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .hero-text h1 {
     font-size: 26px;
   }
@@ -1728,4 +1728,4 @@
     font-size: 13px;
     padding: 6px 12px;
   }
-}
+} */
