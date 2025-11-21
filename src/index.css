@@ -883,8 +883,8 @@
 }
 
 .footer-links {
-  display:none;
-  display: flex;
+  /* display:none;
+  display: flex; */
   justify-content: center;
   gap: 25px;
   margin: 15px 0;
