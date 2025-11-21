@@ -1635,7 +1635,7 @@
 
   /* ABOUT PAGE */
   .about-hero {
-    padding: 0 16px 50px 16px;
+    padding-top: 0;
     /* margin: 0 10px 10px 10px; */
     height: auto;
   }
