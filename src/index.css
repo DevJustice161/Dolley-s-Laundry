@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 115px;
+  /* height: 115px; */
   padding-top: 24px;
   padding-right: 50px;
   padding-bottom: 24px;
@@ -101,10 +101,10 @@
 }
 .hero-home {
   background: #1f77d6;
-  height: 620px;
+  /* height: 620px; */
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 30px 50px;
   margin: 0 15px 15px 15px;
   border-radius: 0 0 10px 10px;
   /* width: 100%; */
@@ -112,10 +112,11 @@
 
 .hero-wrapper {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   gap: 30px;
   width: 100%;
+  height: 100%;
   /* flex-wrap: wrap; */
 }
 
@@ -124,7 +125,9 @@
   width: 100%;
   /* height: 364px; */
   /* gap: 16px; */
-  height: 471px;
+  padding: 10px 0;
+  height: 100%;
+  /* height: 100%; */
   gap: 50px;
 }
 .hero-wrapper .hero-image {
@@ -139,10 +142,12 @@
 }
 .hero-text h1 {
   color: #fff;
-  font-size: 3.3em;
+  /* font-size: 62px; */
+  font-size: 3.6em;
   font-weight: 700;
   width: 100%;
-  /* height: 200px; */
+  margin-bottom: 20px;
+  /* height: auto; */
 }
 .hero-text span {
   color: #c2d3fd;
@@ -150,8 +155,10 @@
 .hero-text p {
   color: #fff;
   font-size: 16px;
-  margin: 0 0 30px 0;
+  height: auto;
+  /* margin: 0 0 30px 0; */
   width: 100%;
+  margin: 30px 0 80px 0;
   max-width: 450px;
   font-weight: 400;
   font-style: Regular;
@@ -162,7 +169,7 @@
 .hero-buttons {
   display: flex;
   gap: 30px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .hero-buttons .btn-primary {
@@ -190,7 +197,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-text h1 {
     font-size: 30px;
   }
@@ -200,7 +207,7 @@
   .nav-links {
     display: none;
   }
-}
+} */
 
 /* WHY CHOOSE */
 
@@ -290,14 +297,14 @@
   letter-spacing: 0%;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .section-title {
     font-size: 26px;
   }
   .benefit-card {
     text-align: center;
   }
-}
+} */
 
 /* CLEANING SERVICES */
 .top-cleaning-section {
@@ -332,12 +339,12 @@
   gap: 30px;
 }
 .service-grid .first-card {
-  background-image: url(./residential.jpg);
+  background-image: url(/residential.jpg);
   background-size: cover;
   height: 450px;
 }
 .service-grid .second-card {
-  background-image: url(./commercial.png);
+  background-image: url(/commercial.png);
   background-size: cover;
   height: 450px;
 }
@@ -380,11 +387,11 @@
   display: inline-block;
   margin-top: 10px;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .section-title {
     font-size: 26px;
   }
-}
+} */
 
 /* HOW IT WORKS SECTION */
 .how-it-works-container {
@@ -394,7 +401,7 @@
 /* ===== HOW WE CAN HELP ===== */
 .help-section {
   text-align: center;
-  padding: 60px 20px;
+  padding: 60px 5%;
 }
 
 .section-tag {
@@ -438,12 +445,12 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* height: 336px; */
 }
 
 .help-left {
-  width: 570px;
+  width: 100%;
 }
 
 .help-left ul {
@@ -469,7 +476,7 @@
 .help-left ul .main li {
   display: flex;
   /* width: 570px; */
-  height: 112px;
+  /* height: 112px; */
   gap: 20px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -505,9 +512,11 @@
   color: #677489;
   text-align: left;
 }
-
+.help-right {
+  width: 100%;
+}
 .help-right img {
-  width: 570px;
+  width: 100%;
   height: 336px;
   border-radius: 20px;
   object-fit: cover;
@@ -662,11 +671,11 @@
   border-radius: 500px;
   border-width: 1px;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .section-title {
     font-size: 26px;
   }
-}
+} */
 
 /* COVERAGE SECTION */
 
@@ -760,7 +769,7 @@
   color: #0e1109;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .section-title {
     font-size: 26px;
   }
@@ -768,7 +777,7 @@
     width: 100%;
     height: auto;
   }
-}
+} */
 
 /* FOOTER SECTION */
 
@@ -932,11 +941,11 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .newsletter-input input {
     width: 100%;
   }
-}
+} */
 
 /* ABOUT US SECTION */
 
@@ -944,7 +953,7 @@
   background: #1f77d6;
   color: #fff;
   text-align: center;
-  padding: 80px 5%;
+  padding: 20px 5% 80px 5%;
   margin: 0 15px 15px 15px;
   border-radius: 0 0 10px 10px;
   /* height: 432px; */
@@ -971,7 +980,7 @@
 }
 .about-hero p {
   font-weight: 400;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: auto;
   font-size: 16px;
   color: #ffffff;
@@ -985,19 +994,22 @@
 .about-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   /* flex-wrap: wrap; */
   padding: 60px 5%;
   gap: 30px;
 }
 .info-text {
-  max-width: 595px;
-  /* height: 540px; */
+  width: 100%;
+  /* max-width: 595px; */
+  /* height: 100%; */
   gap: 24px;
 }
 .info-text .info-detail {
   /* width: 595; */
   /* height: 260px; */
+  /* padding: 30px 0; */
+  /* height: 100%; */
   gap: 16px;
 }
 .info-text h2 {
@@ -1023,13 +1035,12 @@
 .stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
   /* height: 256px; */
   gap: 24px;
 }
 .stats div {
   /* text-align: center; */
-  background: #f5f8ff;
+  /* background: #f5f8ff; */
   padding: 15px;
   border-radius: 12px;
 }
@@ -1042,15 +1053,13 @@
   text-transform: capitalize;
   color: #1f77d6;
 }
-.info-image {
-  width: 100%;
-}
+
 .info-image img {
   object-fit: cover;
   width: 100%;
   border-radius: 16px;
   /* width: 595px; */
-  height: 540px;
+  height: 100%;
 }
 
 .standfor-section {
@@ -1058,7 +1067,7 @@
   display: flex;
   justify-content: space-between;
   /* width: 100%; */
-  /* align-items: center; */
+  align-items: center;
   /* flex-wrap: wrap; */
   gap: 30px;
   /* height: 698px; */
@@ -1228,7 +1237,7 @@
   border-width: 1px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .about-hero h1 {
     font-size: 28px;
   }
@@ -1236,7 +1245,7 @@
   .standfor-image img {
     width: 100%;
   }
-}
+} */
 
 /* RESPONSIVENESS */
 
@@ -1256,10 +1265,10 @@
   }
 
   .hero-text h1 {
-    font-size: 40px;
+    /* font-size: 40px; */
     line-height: 1.1;
     width: 100%;
-    height: 170px;
+    /* height: 170px; */
   }
 
   .hero-wrapper .hero-image img {
@@ -1306,12 +1315,11 @@
   .city-list {
     width: 100%;
   }
-
-  .info-image img,
+  /* .info-image img,
   .standfor-image img {
     width: 100%;
     height: auto;
-  }
+  } */
 
   .cta-banner h2 {
     width: 100%;
@@ -1325,6 +1333,10 @@
     height: auto;
     font-size: 48px;
     line-height: 1.2;
+  }
+
+  .standfor-image img {
+    height: 450px;
   }
 }
 
@@ -1432,6 +1444,7 @@
 
   .hero-text p {
     max-width: 100%;
+    margin-bottom: 40px;
   }
 
   .hero-wrapper .hero-image img {
@@ -1442,6 +1455,7 @@
   /* WHY CHOOSE */
   .why-choose-section {
     flex-direction: column;
+    align-items: center;
     padding: 40px 16px;
   }
 
@@ -1449,6 +1463,13 @@
     padding: 0;
     width: 100%;
     height: auto;
+    text-align: center;
+  }
+
+  .why-choose-section .section-sub,
+  .why-choose-section .reason-grid .section-tag,
+  .why-choose-section .section-title {
+    text-align: center;
   }
 
   .benefit-grid {
@@ -1460,6 +1481,7 @@
   .benefit-card {
     width: 100%;
     height: auto;
+    text-align: center;
   }
 
   .benefit-card h3 {
@@ -1509,7 +1531,8 @@
   }
 
   .help-content .indicator {
-    display: none; /* optional: hide vertical line on mobile */
+    display: none;
+    /* optional: hide vertical line on mobile */
   }
 
   /* TESTIMONIALS */
@@ -1612,7 +1635,7 @@
 
   /* ABOUT PAGE */
   .about-hero {
-    padding: 48px 16px;
+    padding: 0 16px 50px 16px;
     /* margin: 0 10px 10px 10px; */
     height: auto;
   }
@@ -1624,6 +1647,7 @@
   }
 
   .about-info {
+    text-align: center;
     flex-direction: column;
     padding: 40px 16px;
   }
@@ -1654,13 +1678,13 @@
   .standfor-section {
     flex-direction: column;
     height: auto;
-    /* padding: 40px 16px; */
+    /* width: 100%; */
+    padding: 40px 16px;
   }
 
   .standfor-card {
     width: 100%;
     height: auto;
-    padding: 0;
   }
 
   .standfor-card p,
@@ -1671,7 +1695,7 @@
 
   .standfor-image img {
     width: 100%;
-    height: auto;
+    height: 400px;
   }
 
   .about-cta {
