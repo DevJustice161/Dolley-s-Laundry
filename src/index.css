@@ -1424,7 +1424,7 @@
   }
 
   .hero-text h1 {
-    /* font-size: 32px; */
+    font-size: 40px;
     padding-bottom: 10px;
     height: auto;
     line-height: 1.25;
@@ -1584,7 +1584,6 @@
   }
 
   .newsletter-banner {
-    background: red;
     flex-direction: column;
     height: auto;
     gap: 16px;
