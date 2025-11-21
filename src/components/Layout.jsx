@@ -29,20 +29,15 @@ export default function Layout() {
 
         <div className="footer-main">
           <h2>Dolley's Laundry</h2>
-          <ul className="footer-links">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
-            </li>
-            <li>
-              <a href="/sevices">Services</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
+          <div className="footer-links">
+            <NavLink to="/">Home</NavLink>
+
+            <NavLink to="/about">About</NavLink>
+
+            <NavLink to="/services">Services</NavLink>
+
+            <NavLink to="/contact">Contact</NavLink>
+          </div>
           <p className="contact-info">
             <div className="contact-info-head">Contact Us</div>
             <div className="contact-info-mail">
