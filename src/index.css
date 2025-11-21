@@ -915,6 +915,9 @@
   text-decoration-thickness: 0%;
   text-decoration-skip-ink: auto;
 }
+.footer-main .contact-info .contact-info-mail {
+  word-break: break-all;
+}
 .footer-main .contact-info .phone-number {
   text-decoration: underline;
 }
@@ -1627,14 +1630,13 @@
 
   .footer-main {
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     /* height: auto; */
   }
 
   .footer-links {
-    align-items: center;
-    /* flex-wrap: wrap; */
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .footer-bottom {
