@@ -4,13 +4,11 @@ import Pagehero from "../components/Pagehero";
 const About = () => {
   return (
     <div className="about-page">
-      {/* Hero Section */}
       <Pagehero
         head="ABOUT US"
         title="Cleaning with Purpose, More than just a Service"
         paragraph="At Dolley's Laundry, we understand that exceptional service is more than just looking good - it provides reassurance and comfort."
       />
-      {/* Professional Service Section */}
       <section className="about-info">
         <div className="info-image">
           <img src="./about1.jpg" alt="Laundry" />
@@ -48,7 +46,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* What We Stand For */}
       <section className="standfor-section">
         <div className="standfor-card">
           <h4 className="section-tag">Features</h4>
@@ -81,7 +78,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="about-cta">
         <h2>
           We Provide You With Standard Residential And Commercial Laundry

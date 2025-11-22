@@ -12,15 +12,15 @@ export default function Nav() {
     <header className="header">
       <nav className="nav-bar">
         <div className="logo-side">
-          <img src="./logo.png" alt="Logo" />
+          <NavLink to="/">
+            <img src="./logo.png" alt="Logo" />
+          </NavLink>
         </div>
 
-        {/* Hamburger Button */}
         <div className="mobile-menu-icon" onClick={toggleMenu}>
           {isOpen ? <FiX /> : <FiMenu />}
         </div>
 
-        {/* Desktop + Mobile Menu */}
         <ul className={`nav-links ${isOpen ? "mobile-open" : ""}`}>
           <li>
             <NavLink to="/" className={active} onClick={toggleMenu} end>
@@ -38,13 +38,11 @@ export default function Nav() {
             </NavLink>
           </li>
 
-          {/* Show Contact inside menu on Mobile */}
           {isOpen && (
             <button className="contact-btn-mobile">
               <NavLink to="/contact" onClick={toggleMenu}>
                 Contact Us
               </NavLink>
-              {/* <a href="/contact">Contact Us</a> */}
             </button>
           )}
         </ul>

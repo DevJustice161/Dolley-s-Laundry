@@ -55,7 +55,6 @@ const Commercial = () => {
         </div>
       </div>
 
-      {/* CTA Section */}
       <section className="cta-section">
         <h2>Professional Laundry Services For Businesses</h2>
         <p>Experience top-tier cleaning backed by trusted professionals.</p>

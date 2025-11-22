@@ -1,16 +1,17 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Nav from "./Nav";
 
 export default function Layout() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="">
       <section className="main-header">
         <Nav />
       </section>
 
-      <main className="flex-1 container mx-auto px-4 py-8">
+      <main className="">
         <Outlet />
       </main>
       <footer className="footer-section">

@@ -59,19 +59,6 @@ const Howitworks = () => {
           </div>
         </div>
       </section>
-
-      {/* <section className="cta-section">
-        <h2 className="cta-title">Ready For A Fresh, Laundry?</h2>
-        <p className="cta-sub">
-          Book today and discover why our customers recommend our laundry
-          service so much.
-        </p>
-
-        <div className="cta-buttons">
-          <button className="btn-primary">Schedule Instant Pickup</button>
-          <button className="btn-outline">Request Customized Quote</button>
-        </div>
-      </section> */}
     </div>
   );
 };
