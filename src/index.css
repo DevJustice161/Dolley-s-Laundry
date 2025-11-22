@@ -10,10 +10,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
-  /* height: 115px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   padding-top: 24px;
   padding-right: 50px;
   padding-bottom: 24px;
@@ -98,10 +94,6 @@
 }
 .hero-home {
   background: #1f77d6;
-<<<<<<< HEAD
-  /* height: 620px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   display: flex;
   justify-content: space-between;
   padding: 30px 50px;
@@ -111,32 +103,18 @@
 
 .hero-wrapper {
   display: flex;
-<<<<<<< HEAD
-  /* align-items: center; */
-=======
->>>>>>> 96342ba (Changed Everything)
   justify-content: space-between;
   gap: 30px;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-  /* flex-wrap: wrap; */
-=======
->>>>>>> 96342ba (Changed Everything)
 }
 
 .hero-wrapper .hero-text {
   width: 100%;
-<<<<<<< HEAD
-  /* height: 364px; */
-  /* gap: 16px; */
   padding: 10px 0;
   height: 100%;
-  /* height: 100%; */
-=======
   padding: 10px 0;
   height: 100%;
->>>>>>> 96342ba (Changed Everything)
   gap: 50px;
 }
 .hero-wrapper .hero-image {
@@ -151,18 +129,11 @@
 }
 .hero-text h1 {
   color: #fff;
-<<<<<<< HEAD
-  /* font-size: 62px; */
-=======
->>>>>>> 96342ba (Changed Everything)
+
   font-size: 3.6em;
   font-weight: 700;
   width: 100%;
   margin-bottom: 20px;
-<<<<<<< HEAD
-  /* height: auto; */
-=======
->>>>>>> 96342ba (Changed Everything)
 }
 .hero-text span {
   color: #c2d3fd;
@@ -171,10 +142,6 @@
   color: #fff;
   font-size: 16px;
   height: auto;
-<<<<<<< HEAD
-  /* margin: 0 0 30px 0; */
-=======
->>>>>>> 96342ba (Changed Everything)
   width: 100%;
   margin: 30px 0 80px 0;
   max-width: 450px;
@@ -186,8 +153,8 @@
 
 .hero-buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
-  /* flex-wrap: wrap; */
 }
 
 .hero-buttons .btn-primary {
@@ -214,21 +181,6 @@
   object-fit: cover;
 }
 
-<<<<<<< HEAD
-/* @media (max-width: 768px) {
-  .hero-text h1 {
-    font-size: 30px;
-  }
-  .hero-image img {
-    width: 100%;
-  }
-  .nav-links {
-    display: none;
-  }
-} */
-
-=======
->>>>>>> 96342ba (Changed Everything)
 /* WHY CHOOSE */
 
 .why-choose-section {
@@ -308,18 +260,6 @@
   letter-spacing: 0%;
 }
 
-<<<<<<< HEAD
-/* @media (max-width: 768px) {
-  .section-title {
-    font-size: 26px;
-  }
-  .benefit-card {
-    text-align: center;
-  }
-} */
-
-=======
->>>>>>> 96342ba (Changed Everything)
 /* CLEANING SERVICES */
 .top-cleaning-section {
   background: #eaf3fc;
@@ -396,14 +336,6 @@
   display: inline-block;
   margin-top: 10px;
 }
-<<<<<<< HEAD
-/* @media (max-width: 768px) {
-  .section-title {
-    font-size: 26px;
-  }
-} */
-=======
->>>>>>> 96342ba (Changed Everything)
 
 /* HOW IT WORKS SECTION */
 .how-it-works-container {
@@ -456,11 +388,6 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-<<<<<<< HEAD
-  /* flex-wrap: wrap; */
-  /* height: 336px; */
-=======
->>>>>>> 96342ba (Changed Everything)
 }
 
 .help-left {
@@ -487,11 +414,6 @@
 
 .help-left ul .main li {
   display: flex;
-<<<<<<< HEAD
-  /* width: 570px; */
-  /* height: 112px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   gap: 20px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -679,15 +601,7 @@
   border-radius: 500px;
   border-width: 1px;
 }
-<<<<<<< HEAD
-/* @media (max-width: 768px) {
-  .section-title {
-    font-size: 26px;
-  }
-} */
 
-=======
->>>>>>> 96342ba (Changed Everything)
 /* COVERAGE SECTION */
 
 .coverage-section {
@@ -721,22 +635,11 @@
 
 .coverage-wrapper {
   display: flex;
-<<<<<<< HEAD
-  /* align-items: flex-start; */
   justify-content: center;
-  /* flex-wrap: wrap; */
-  /* height: 699px; */
-=======
-  justify-content: center;
->>>>>>> 96342ba (Changed Everything)
   gap: 24px;
 }
 .main-image {
   width: 100%;
-<<<<<<< HEAD
-  /* width: 608px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   height: 382px;
   gap: 16px;
   border-radius: 16px;
@@ -746,10 +649,6 @@
 
 .main-image img {
   width: 100%;
-<<<<<<< HEAD
-  /* width: 568px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   height: 300px;
   border-radius: 16px;
   object-fit: cover;
@@ -767,17 +666,12 @@
   grid-template-columns: 1fr;
   gap: 24px;
   width: 100%;
-<<<<<<< HEAD
-  /* width: 400px; */
-=======
->>>>>>> 96342ba (Changed Everything)
 }
 
 .city-card {
   display: flex;
   align-items: center;
   gap: 10px;
-  /* width: 100%; */
   background: #fff;
   padding: 12px;
   border-radius: 12px;
@@ -796,19 +690,6 @@
   color: #0e1109;
 }
 
-<<<<<<< HEAD
-/* @media (max-width: 768px) {
-  .section-title {
-    font-size: 26px;
-  }
-  .main-image img {
-    width: 100%;
-    height: auto;
-  }
-} */
-
-=======
->>>>>>> 96342ba (Changed Everything)
 /* FOOTER SECTION */
 
 .footer-section {
@@ -830,10 +711,6 @@
 }
 .newsletter-banner .newsletter-head {
   width: 100%;
-<<<<<<< HEAD
-  /* height: 72px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   gap: 16px;
 }
 
@@ -855,10 +732,6 @@
   line-height: 26px;
   letter-spacing: 0%;
   color: #fafafa;
-<<<<<<< HEAD
-  /* height: 26px; */
-=======
->>>>>>> 96342ba (Changed Everything)
 }
 
 .newsletter-input {
@@ -867,14 +740,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-<<<<<<< HEAD
-  /* margin: 15px; */
-  /* margin-top: 15px; */
-  /* flex-wrap: wrap; */
-  /* height: 46px; */
-  /* justify-content: space-between; */
-=======
->>>>>>> 96342ba (Changed Everything)
   border-radius: 500px;
   padding-top: 11px;
   padding-right: 20px;
@@ -897,11 +762,6 @@
 .newsletter-input button {
   background: #ffffff;
   color: #1f77d6;
-<<<<<<< HEAD
-
-  /* padding: 12px 18px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -917,35 +777,16 @@
   text-align: center;
   margin-bottom: 30px;
   width: 100%;
-<<<<<<< HEAD
-  /* height: 220px; */
-  /* gap: 40px; */
 }
 .footer-main h2 {
-  /* width: 267; */
-  /* height: 36px; */
-=======
-}
-.footer-main h2 {
->>>>>>> 96342ba (Changed Everything)
   gap: 4px;
 }
 
 .footer-links {
-<<<<<<< HEAD
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
-=======
->>>>>>> 96342ba (Changed Everything)
   gap: 25px;
   margin: 15px 0;
   list-style: none;
   text-align: center;
-<<<<<<< HEAD
-  /* height: 26px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   gap: 24px;
 }
 .footer-links a {
@@ -955,10 +796,6 @@
 }
 
 .footer-main .contact-info {
-<<<<<<< HEAD
-  /* height: 78px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   gap: 24px;
 }
 .footer-main .contact-info .contact-info-head,
@@ -1003,15 +840,6 @@
   text-align: center;
 }
 
-<<<<<<< HEAD
-/* @media (max-width: 768px) {
-  .newsletter-input input {
-    width: 100%;
-  }
-} */
-
-=======
->>>>>>> 96342ba (Changed Everything)
 /* ABOUT US SECTION */
 
 .about-hero {
@@ -1043,10 +871,6 @@
 }
 .about-hero p {
   font-weight: 400;
-<<<<<<< HEAD
-  /* max-width: 600px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   margin: auto;
   font-size: 16px;
   color: #ffffff;
@@ -1060,31 +884,17 @@
 .about-info {
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
-=======
->>>>>>> 96342ba (Changed Everything)
   padding: 60px 5%;
   gap: 30px;
 }
 .info-text {
   width: 100%;
-<<<<<<< HEAD
-  /* max-width: 595px; */
-  /* height: 100%; */
   gap: 24px;
 }
 .info-text .info-detail {
-  /* width: 595; */
-  /* height: 260px; */
-  /* padding: 30px 0; */
-  /* height: 100%; */
-=======
   gap: 24px;
 }
 .info-text .info-detail {
->>>>>>> 96342ba (Changed Everything)
   gap: 16px;
 }
 .info-text h2 {
@@ -1108,18 +918,12 @@
 .stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-<<<<<<< HEAD
-  /* height: 256px; */
   gap: 24px;
 }
 .stats div {
-  /* text-align: center; */
-  /* background: #f5f8ff; */
-=======
   gap: 24px;
 }
 .stats div {
->>>>>>> 96342ba (Changed Everything)
   padding: 15px;
   border-radius: 12px;
 }
@@ -1137,10 +941,6 @@
   object-fit: cover;
   width: 100%;
   border-radius: 16px;
-<<<<<<< HEAD
-  /* width: 595px; */
-=======
->>>>>>> 96342ba (Changed Everything)
   height: 100%;
 }
 
@@ -1148,13 +948,9 @@
   margin: 15px;
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
-  /* width: 100%; */
   align-items: center;
-  /* flex-wrap: wrap; */
-=======
   align-items: center;
->>>>>>> 96342ba (Changed Everything)
+
   gap: 30px;
   gap: 50px;
   opacity: 1;
@@ -1300,19 +1096,6 @@
   border-width: 1px;
 }
 
-<<<<<<< HEAD
-/* @media (max-width: 768px) {
-  .about-hero h1 {
-    font-size: 28px;
-  }
-  .info-image img,
-  .standfor-image img {
-    width: 100%;
-  }
-} */
-
-=======
->>>>>>> 96342ba (Changed Everything)
 /* RESPONSIVENESS */
 
 /* Medium screens (tablets & small laptops) */
@@ -1329,17 +1112,9 @@
   }
 
   .hero-text h1 {
-<<<<<<< HEAD
-    /* font-size: 40px; */
     line-height: 1.1;
     width: 100%;
-    /* height: 170px; */
-=======
     line-height: 1.1;
-    width: 100%;
->>>>>>> 96342ba (Changed Everything)
-  }
-  .hero-buttons button {
     width: 100%;
   }
   .hero-wrapper .hero-image img {
@@ -1385,15 +1160,6 @@
   .city-list {
     width: 100%;
   }
-<<<<<<< HEAD
-  /* .info-image img,
-  .standfor-image img {
-    width: 100%;
-    height: auto;
-  } */
-=======
->>>>>>> 96342ba (Changed Everything)
-
   .cta-banner h2 {
     width: 100%;
     height: auto;
@@ -1505,10 +1271,6 @@
 
   .hero-text h1 {
     font-size: 40px;
-<<<<<<< HEAD
-    /* padding-bottom: 10px; */
-=======
->>>>>>> 96342ba (Changed Everything)
     height: auto;
     line-height: 1.25;
   }
@@ -1520,20 +1282,11 @@
   }
   .hero-text .hero-buttons button {
     height: auto;
-    width: 100%;
-<<<<<<< HEAD
-    font-size: 10px;
-=======
->>>>>>> 96342ba (Changed Everything)
   }
 
   .hero-wrapper .hero-image img {
     width: 100%;
     height: 250px;
-<<<<<<< HEAD
-    /* height: auto; */
-=======
->>>>>>> 96342ba (Changed Everything)
   }
 
   /* WHY CHOOSE */
@@ -1613,10 +1366,6 @@
 
   .help-content .indicator {
     display: none;
-<<<<<<< HEAD
-    /* optional: hide vertical line on mobile */
-=======
->>>>>>> 96342ba (Changed Everything)
   }
 
   /* TESTIMONIALS */
@@ -1685,36 +1434,22 @@
 
   /* FOOTER */
   .footer-section {
-<<<<<<< HEAD
-    /* margin: 10px; */
-=======
->>>>>>> 96342ba (Changed Everything)
     padding: 32px 16px;
   }
 
   .newsletter-banner {
     flex-direction: column;
-<<<<<<< HEAD
-    /* height: auto; */
-=======
->>>>>>> 96342ba (Changed Everything)
     gap: 16px;
   }
   .newsletter-banner h4 {
     margin-bottom: 20px;
   }
   .newsletter-banner p {
-<<<<<<< HEAD
-    /* margin-bottom: 20px; */
-=======
->>>>>>> 96342ba (Changed Everything)
     height: auto;
   }
   .newsletter-input {
     width: 100%;
     justify-content: space-between;
-<<<<<<< HEAD
-=======
   }
   .newsletter-input input {
     width: 100%;
@@ -1723,25 +1458,14 @@
   .footer-main {
     text-align: center;
     align-items: center;
->>>>>>> 96342ba (Changed Everything)
   }
   .newsletter-input input {
     width: 100%;
   }
-  /* .newsletter-input button {
-    background-color: pink;
-  } */
-
   .footer-main {
     text-align: center;
     align-items: center;
-    /* height: auto; */
   }
-
-  /* .footer-links {
-    flex-direction: column;
-    flex-wrap: wrap;
-  } */
 
   .footer-bottom {
     flex-direction: column;
@@ -1755,12 +1479,6 @@
   /* ABOUT PAGE */
   .about-hero {
     padding-top: 0;
-<<<<<<< HEAD
-    /* padding: 0 16px 60px 16px; */
-    /* margin: 0 10px 10px 10px; */
-    /* height: auto; */
-=======
->>>>>>> 96342ba (Changed Everything)
   }
 
   .about-hero h1 {
@@ -1799,10 +1517,6 @@
   .standfor-section {
     flex-direction: column;
     height: auto;
-<<<<<<< HEAD
-    /* width: 100%; */
-=======
->>>>>>> 96342ba (Changed Everything)
     padding: 40px 16px;
   }
 
@@ -1836,23 +1550,3 @@
     margin: 50px 0;
   }
 }
-<<<<<<< HEAD
-
-/* Extra small phones */
-/* @media (max-width: 480px) {
-  .hero-text h1 {
-    font-size: 26px;
-  }
-
-  .cta-banner h2,
-  .about-cta h2 {
-    font-size: 26px;
-  }
-
-  .contact-btn {
-    font-size: 13px;
-    padding: 6px 12px;
-  }
-} */
-=======
->>>>>>> 96342ba (Changed Everything)
