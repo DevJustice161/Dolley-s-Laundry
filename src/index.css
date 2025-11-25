@@ -4,6 +4,33 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-in-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn-primary,
+.btn-outline {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-outline:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
 .nav-bar {
   margin: 15px 15px 0 15px;
   background: #1f77d6;
@@ -41,6 +68,7 @@
   line-height: 20px;
   letter-spacing: 0px;
   color: #fff;
+  transition: transform 0.2s ease;
 }
 .nav-links .nav-link-active {
   text-decoration: none;
@@ -49,7 +77,13 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0px;
-  color: #fff;
+  color: #ffd643;
+  transition: transform 0.2s ease;
+}
+.nav-links .nav-link-active:hover,
+.nav-links .nav-link-inactive:hover {
+  font-weight: 700;
+  transform: scale(3);
 }
 .contact-btn {
   background: transparent;
@@ -68,6 +102,11 @@
   border-radius: 500px;
   border-width: 1px;
   border: 1px solid #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.contact-btn:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 .nav-bar .contact-btn-mobile {
   display: none;
@@ -81,6 +120,7 @@
   line-height: 20px;
   letter-spacing: 0px;
   color: #fff;
+  font-weight: 700;
   text-decoration: none;
 }
 .nav-bar .contact-btn .nav-link-inactive {
@@ -793,6 +833,14 @@
   color: #e3e8ef;
   margin-left: 5px;
   text-decoration: none;
+}
+.footer-links a.active {
+  color: #ffd643;
+  font-weight: 700;
+}
+.footer-links a:hover {
+  color: #fff;
+  font-weight: 700;
 }
 
 .footer-main .contact-info {

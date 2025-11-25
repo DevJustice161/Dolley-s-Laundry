@@ -549,18 +549,21 @@
   margin: auto;
 }
 .faq-item {
-  transition: height 5s;
   background: #f9f9f9;
   margin-bottom: 12px;
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
+  transition: background 0.2s ease, max-height 5s ease;
+}
+.faq-item:hover {
+  background: #eaf3fc;
 }
 .faq-answer {
+  transition: max-height 5s ease;
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 5s linear;
   margin-top: 10px;
   color: #555;
 }
