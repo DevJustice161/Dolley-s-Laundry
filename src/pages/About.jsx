@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
@@ -115,9 +116,15 @@ const About = () => {
               to discuss a plan that suit your unique needs.
             </p>
             <div className="cta-buttons">
-              <button className="btn-primary">
-                Schedule Residential Pickup
-              </button>
+              <Link
+                to="https://app.trycents.com/new-order/OW94/home"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn-primary">
+                  Schedule Residential Pickup
+                </button>
+              </Link>
               <button className="btn-outline">Request Commercial Quote</button>
             </div>
           </section>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Herohome = () => {
   return (
@@ -14,7 +15,15 @@ const Herohome = () => {
             offices, and multi-unit properties.
           </p>
           <div className="hero-buttons">
-            <button className="btn-primary">Schedule Residential Pickup</button>
+            <Link
+              to="https://app.trycents.com/new-order/OW94/home"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn-primary">
+                Schedule Residential Pickup
+              </button>
+            </Link>
             <button className="btn-outline">Request Commercial Quote</button>
           </div>
         </div>
