@@ -20,7 +20,7 @@ const Whychoose = () => {
               <img src="./vector-transfer-van.png" alt="Transfer Van" />
             </span>
             <h3>Pickup & Delivery</h3>
-            <p>We offer free pickup and delivery to our clients.</p>
+            <p>We offer pickup and delivery to our clients.</p>
           </div>
 
           <div className="benefit-card">

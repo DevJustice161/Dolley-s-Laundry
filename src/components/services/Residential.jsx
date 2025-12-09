@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Residential = () => {
   return (
-    <section className="residential-section">
+    <section className="residential-section" id="residential-section">
       <h1 className="title">Residential Services</h1>
       <p className="subtitle">
         Weekly laundry pickup, wash-dry-fold, and bedding cleaning for your
@@ -58,7 +59,13 @@ const Residential = () => {
             Available in Pawtucket, Providence, East Providence, Cranston,
             Warwick, Seekonk, Attleboro, and Surroundings.
           </p>
-          <button className="btn-primary">Book Now</button>
+          <Link
+            to="https://app.trycents.com/new-order/OW94/home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-primary">Book Now</button>
+          </Link>
         </div>
       </div>
     </section>

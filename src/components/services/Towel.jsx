@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Towel = () => {
   return (
@@ -30,7 +31,13 @@ const Towel = () => {
               Available in Pawtucket, Providence, East Providence, Cranston,
               Warwick, Seekonk, Attleboro, and Surroundings.
             </p>
-            <button className="btn-primary">Book Now</button>
+            <Link
+              to="https://app.trycents.com/new-order/OW94/home"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn-primary">Book Now</button>
+            </Link>
           </div>
         </div>
       </div>

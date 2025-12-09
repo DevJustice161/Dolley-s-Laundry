@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
@@ -28,7 +29,9 @@ const CleaningService = () => {
                 Weekly laundry pickup, wash-dry-fold, and bedding cleaning for
                 your home.
               </p>
-              <a href="#">View Residential Services →</a>
+              <Link to="/services#residential-section">
+                View Residential Services →
+              </Link>
             </div>
           </div>
         </motion.div>
@@ -40,7 +43,9 @@ const CleaningService = () => {
                 We keep your business running — clean linens, on-time delivery,
                 professional service.
               </p>
-              <a href="#">View Commercial Services →</a>
+              <Link to="/services#commercial-section">
+                View Commercial Services →
+              </Link>
             </div>
           </div>
         </motion.div>

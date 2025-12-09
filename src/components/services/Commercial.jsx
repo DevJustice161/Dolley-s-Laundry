@@ -1,8 +1,15 @@
 import React from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import CommercialQuoteModal from "../CommercialQuoteModal";
 
 const Commercial = () => {
+  const [isQuoteOpen, setIsQuoteOpen] = useState(false);
+
+  const openQuoteModal = () => setIsQuoteOpen(true);
+  const closeQuoteModal = () => setIsQuoteOpen(false);
   return (
-    <section className="commercial-section">
+    <section className="commercial-section" id="commercial-section">
       <div className="main-commercial-section">
         <h1 className="title">Commercial Services</h1>
         <p className="subtitle">
@@ -58,7 +65,10 @@ const Commercial = () => {
       <section className="cta-section">
         <h2>Professional Laundry Services For Businesses</h2>
         <p>Experience top-tier cleaning backed by trusted professionals.</p>
-        <button className="btn-primary">Get a Commercial Quote</button>
+        <button className="btn-primary" onClick={openQuoteModal}>
+          Get a Commercial Quote
+        </button>
+        <CommercialQuoteModal isOpen={isQuoteOpen} onClose={closeQuoteModal} />
       </section>
     </section>
   );

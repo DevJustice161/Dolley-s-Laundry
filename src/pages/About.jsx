@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import Pagehero from "../components/Pagehero";
+import CommercialQuoteModal from "../components/CommercialQuoteModal";
 
 const About = () => {
+  const [isQuoteOpen, setIsQuoteOpen] = useState(false);
+
+  const openQuoteModal = () => setIsQuoteOpen(true);
+  const closeQuoteModal = () => setIsQuoteOpen(false);
   useEffect(() => {
     const sections = document.querySelectorAll(".reveal");
     const observer = new IntersectionObserver(
@@ -125,8 +130,14 @@ const About = () => {
                   Schedule Residential Pickup
                 </button>
               </Link>
-              <button className="btn-outline">Request Commercial Quote</button>
+              <button className="btn-outline" onClick={openQuoteModal}>
+                Request Commercial Quote
+              </button>
             </div>
+            <CommercialQuoteModal
+              isOpen={isQuoteOpen}
+              onClose={closeQuoteModal}
+            />
           </section>
         </div>
       </div>

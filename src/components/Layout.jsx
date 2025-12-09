@@ -1,9 +1,20 @@
 import React from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import Nav from "./Nav";
 
 export default function Layout() {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const [send, setSend] = useState("Send");
+  const subscribe = (e) => {
+    e.preventDefault();
+    setSend("subscribed!");
+    setTimeout(() => {
+      setSend("send");
+    }, 5000);
+  };
   return (
     <div className="">
       <section className="main-header">
@@ -22,10 +33,10 @@ export default function Layout() {
               in your inbox.
             </p>
           </div>
-          <div className="newsletter-input">
-            <input type="email" placeholder="Enter your email" />
-            <button>Send</button>
-          </div>
+          <form className="newsletter-input" onSubmit={subscribe}>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">{send}</button>
+          </form>
         </div>
 
         <div className="footer-main">
@@ -50,7 +61,7 @@ export default function Layout() {
 
         <div className="footer-bottom">
           <p className="copyright">
-            © 2025 Dolley's Laundry. All rights reserved.
+            © {currentYear} Dolley's Laundry. All rights reserved.
           </p>
           <div className="where-to">
             <p>Where to find us</p>

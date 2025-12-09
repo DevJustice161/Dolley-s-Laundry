@@ -40,6 +40,46 @@ const Contact = () => {
     setOpenIndex(openIndex === i ? null : i);
   };
 
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phoneNumber: "",
+    message: "",
+  });
+
+  const [successMsg, setSuccessMsg] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setSuccessMsg("");
+    setErrorMsg("");
+
+    try {
+      const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          type: "commercial-quote",
+          ...form,
+        }),
+      });
+
+      if (!res.ok) throw new Error("Failed to send");
+
+      setSuccessMsg(
+        "Your request has been sent successfully, we'll get back to you shortly via your email! "
+      );
+      setForm({ name: "", email: "", phoneNumber: "", message: "" });
+      setTimeout(() => {
+        setSuccessMsg("");
+      }, 5000);
+      // eslint-disable-next-line no-unused-vars
+    } catch (err) {
+      setErrorMsg("Something went wrong. Please try again.");
+    }
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -83,26 +123,34 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="contact-form">
+            <form className="contact-form" onSubmit={handleSubmit}>
+              {successMsg && <p className="success-msg">{successMsg}</p>}
+              {errorMsg && <p className="error-msg">{errorMsg}</p>}
               <div className="form-row">
                 <label htmlFor="">Fullname</label>
-                <input type="text" placeholder="" />
+                <input type="text" placeholder="" required />
               </div>
               <div className="form-row">
                 <label htmlFor="">Email Address</label>
-                <input type="email" placeholder="ex@mail.com" />
+                <input type="email" placeholder="ex@mail.com" required />
               </div>
               <div className="form-row">
                 <label htmlFor="">Phone Number</label>
-                <input type="text" placeholder="" />
+                <input type="text" placeholder="" required />
               </div>
               <div className="form-row">
                 <label htmlFor="">Message</label>
-                <textarea placeholder="Enter your message" rows="4"></textarea>
+                <textarea
+                  placeholder="Enter your message"
+                  rows="4"
+                  required
+                ></textarea>
               </div>
 
-              <button className="btn-primary">Send Message</button>
-            </div>
+              <button className="btn-primary" type="submit">
+                Send Message
+              </button>
+            </form>
           </div>
         </div>
         <div className="reveal">
