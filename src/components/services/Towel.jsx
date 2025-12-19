@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import CommercialQuoteModal from "../CommercialQuoteModal";
 
 const Towel = () => {
+  const [isQuoteOpen, setIsQuoteOpen] = useState(false);
+
+  const openQuoteModal = () => setIsQuoteOpen(true);
+  const closeQuoteModal = () => setIsQuoteOpen(false);
   return (
     <section className="towel-section">
       <h1 className="title">Towel Rental Services</h1>
@@ -31,13 +37,14 @@ const Towel = () => {
               Available in Pawtucket, Providence, East Providence, Cranston,
               Warwick, Seekonk, Attleboro, and Surroundings.
             </p>
-            <Link
-              to="https://app.trycents.com/new-order/OW94/home"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="btn-primary">Book Now</button>
-            </Link>
+
+            <button className="btn-primary" onClick={openQuoteModal}>
+              Book Now
+            </button>
+            <CommercialQuoteModal
+              isOpen={isQuoteOpen}
+              onClose={closeQuoteModal}
+            />
           </div>
         </div>
       </div>
